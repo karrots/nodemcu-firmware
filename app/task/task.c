@@ -10,7 +10,7 @@
 #define TASK_HANDLE_UNMASK  (~TASK_HANDLE_MASK)
 #define TASK_HANDLE_SHIFT   2
 #define TASK_HANDLE_ALLOCATION_BRICK 4   // must be a power of 2
-#define TASK_DEFAULT_QUEUE_LEN 8
+#define TASK_DEFAULT_QUEUE_LEN 16
 #define TASK_PRIORITY_MASK  3
 
 #define CHECK(p,v,msg) if (!(p)) { NODE_DBG ( msg ); return (v); }
